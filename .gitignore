@@ -188,4 +188,12 @@ cython_debug/
 .ruff_cache/
 
 # PyPI configuration file
-.pypirc
+.pypirc__pycache__/
+*.pyc
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+data/
+notebooks/data/

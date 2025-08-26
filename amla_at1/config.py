@@ -1,10 +1,20 @@
 from pathlib import Path
 
-from dotenv import load_dotenv
-from loguru import logger
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    def load_dotenv(*args, **kwargs):
+        return False
 
-# Load environment variables from .env file if it exists
-load_dotenv()
+try:
+    from loguru import logger
+except ImportError:
+    import logging
+    logger = logging.getLogger(__name__)
+
+# # Load environment variables from .env file if it exists
+# load_dotenv()
 
 # Paths
 PROJ_ROOT = Path(__file__).resolve().parents[1]

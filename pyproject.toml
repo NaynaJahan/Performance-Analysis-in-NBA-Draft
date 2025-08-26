@@ -1,24 +1,23 @@
-[project]
+[tool.poetry]
 name = "amla-at1"
-version = "0.1.0"
+version = "2025.0.1.8"
 description = ""
-authors = [
-    {name = "Your Name",email = "you@example.com"}
-]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-requires-python = ">=3.11,<3.13"
-dependencies = [
-    "pandas (==2.2.2)",
-    "jupyterlab (==4.2.3)",
-    "scikit-learn (==1.5.1)",
-    "joblib (==1.4.2)",
-    "xgboost (==2.1.0)",
-    "hyperopt (==0.2.7)",
-    "lightgbm (==4.4.0)",
-    "lime (==0.2.0.1)",
-    "wandb (==0.17.4)"
-]
+packages = [{ include = "amla_at1", from = "src" }]
 
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "==2.2.2"
+jupyterlab = "==4.2.3"
+scikit-learn = "==1.5.1"
+joblib = "==1.4.2"
+xgboost = "==2.1.0"
+hyperopt = "==0.2.7"
+lightgbm = "==4.4.0"
+lime = "==0.2.0.1"
+wandb = "==0.17.4"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
@@ -27,4 +26,3 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.group.dev.dependencies]
 pytest = "8.2.2"
 jupyterlab = "4.2.3"
-
