@@ -1,0 +1,14 @@
+{
+  "timestamp": "20250829-044334",
+  "experiment": "Experiment 2",
+  "pipeline_var_name": "pipe",
+  "model_class": "LGBMClassifier",
+  "python": "3.11.4 (main, Aug 25 2025, 18:21:39) [Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.6.1-x86_64-i386-64bit",
+  "n_raw_features": 39,
+  "metrics": {
+    "train": null,
+    "val": null,
+    "test": null
+  }
+}
