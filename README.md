@@ -60,6 +60,22 @@ amla_at1/
     - `catboost` = 1.2.5
     - `pytest` = 8.2.2
 
+---
+
+## Custom Python Package
+`amla_at1` is a lightweight Python package that bundles data utilities, feature-engineering helpers, baseline models, and evaluation helpers used in the AMLA AT1 Kaggle Competition. It includes:
+- A simple NullModel baseline with fit() / predict_proba() that returns calibrated constant probabilities.
+- Performance helpers to compute AUROC, Brier score, and to ensemble multiple probability vectors.
+- Feature engineering for the draft dataset (height parsing, year ordinal, type flags, shooting ratios, per-minute rates), which are relevant and important features of the project.
+- Dataset helpers to pop the target, save/load splits, and run a stratified train/validation/test split.
+
+The package is tested via `pytest` and designed to be imported directly in notebooks or Python scripts. The classes and functions are assessed using these test cases.
+
+[Github Repository Link to Custom Python Package **amla_at1_python_pkg**](https://github.com/naynajn/amla_at1_python_pkg.git)
+
+
+----
+
 ## Setup
 
 > Use either **Poetry** (recommended) or **pip/venv**.
@@ -163,6 +179,7 @@ poetry run pytest -q
 ```
 -----
 ## Acknowledgements
-Project layout inspired by the Cookiecutter Data Science style.
+- [Github Repository Link to the Project **Advanced Machine Learning Application - Spring 2025 - AT1 - Kaggle Competition**](https://github.com/naynajn/amla_at1.git)
+- Project layout inspired by the Cookiecutter Data Science style.
 
 -----
