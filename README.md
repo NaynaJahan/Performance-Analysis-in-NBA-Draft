@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-End-to-end workflow to predict whether a player will be drafted using detailed player statistics, including box score metrics (points, assists, rebounds, blocks), advanced efficiency measures (offensive/defensive ratings, usage rate, shooting percentages), and contextual features (team, conference, year, height). The target variable is whether a player was drafted (binary outcome), with the dataset being highly imbalanced since only a small fraction of players make it to the draft.. The repo contains four experiment notebooks (Exp-0 … Exp-3), saved model artefacts under models/, and utilities in src/amla_at1.
+End-to-end workflow to predict whether a player will be drafted using detailed player statistics, including box score metrics (points, assists, rebounds, blocks), advanced efficiency measures (offensive/defensive ratings, usage rate, shooting percentages), and contextual features (team, conference, year, height). The target variable is whether a player was drafted (binary outcome), with the dataset being highly imbalanced since only a small fraction of players make it to the draft. The repo contains four experiment notebooks (Exp-0 … Exp-3), saved model artefacts under models/, and utilities in src/amla_at1.
 
 -----
 
