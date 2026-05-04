@@ -71,7 +71,7 @@ amla_at1/
 
 The package is tested via `pytest` and designed to be imported directly in notebooks or Python scripts. The classes and functions are assessed using these test cases.
 
-[Github Repository Link to Custom Python Package **amla_at1_python_pkg**](https://github.com/naynajn/amla_at1_python_pkg.git)
+[Github Repository Link to Custom Python Package **Custom Python Package**](https://github.com/NaynaJahan/Custom-Python-Package)
 
 
 ----
